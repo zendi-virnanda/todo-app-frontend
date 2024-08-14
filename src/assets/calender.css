@@ -1,0 +1,70 @@
+react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__navigation-icon::before {
+  @apply border-black;
+}
+
+.react-datepicker__header {
+  @apply pt-3 bg-blue-200 border-blue-400;
+}
+.react-datepicker {
+  @apply text-black border-blue-400 font-borel bg-gray-50;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+  @apply text-white bg-black;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  @apply pt-2.5 text-black leading-4;
+}
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  @apply text-black;
+}
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::after {
+  @apply border-t-0 border-b-blue-600/75;
+}
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle::before,
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle::after {
+  @apply border-b-0 border-t-blue-600/75;
+}
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+  @apply text-white bg-black;
+}
+
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+  cursor: default;
+  color: #ccc;
+}
+.react-datepicker__day--disabled:hover,
+.react-datepicker__month-text--disabled:hover,
+.react-datepicker__quarter-text--disabled:hover,
+.react-datepicker__year-text--disabled:hover {
+  background-color: transparent;
+  color: #ccc;
+}
